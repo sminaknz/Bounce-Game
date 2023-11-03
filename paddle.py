@@ -22,7 +22,6 @@ class Paddle:
             self.x = 0
         self.canvas.move(self.id, self.x, 0)
 
-    # How fast paddle should move to left or right
     def turn_left(self, event):
         self.x = -3.5
 
